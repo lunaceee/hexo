@@ -35,6 +35,8 @@ describe('i18n locals', () => {
       }
     };
 
+    console.log("i18nFilter");
+
     i18nFilter(locals);
 
     locals.__('Home').should.eql('首頁');
